@@ -27,7 +27,6 @@ function App() {
     <StoreContext.Provider value={{store, dispatch}}>
       <div className="App">
         <Container />
-        {/* {store.pageSize} */}
       </div>
     </StoreContext.Provider>
   );
